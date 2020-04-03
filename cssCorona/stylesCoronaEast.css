@@ -10080,23 +10080,44 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(47, 94, 170, 0.7) 0%, rgba(34, 67, 120, 0.7) 100%), url("../assets/img/bg-masthead2.jpg");
+  /* background: linear-gradient(to bottom, rgba(47, 94, 170, 0.7) 0%, rgba(34, 67, 120, 0.7) 100%), url("../assets/img/bg-masthead2.jpg"); */
+  background: url("../assets/img/Easter-Wide-ENG.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 100% auto;
+  position: relative;
 }
 header.masthead h1 {
   font-size: 3.25rem;
 }
+header.masthead2 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  /* background: linear-gradient(to bottom, rgba(47, 94, 170, 0.7) 0%, rgba(34, 67, 120, 0.7) 100%), url("../assets/img/bg-masthead2.jpg"); */
+  /* background-color: #63353e ; */
+  background-color: #63353e ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top: -50px;
+}
+header.masthead2 h1 {
+  font-size: 3.25rem;
+}
 
+@media (min-width: 1366px) {
+  header.masthead {
+    height: 50vh!important;
+  }
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
+    height: 45vh;
+    /* min-height: 40rem; */
+    /* padding-top: 4.5rem;
+    padding-bottom: 0; */
   }
   header.masthead p {
     font-size: 1.15rem;
@@ -10105,12 +10126,31 @@ header.masthead h1 {
     font-size: 4.5rem;
   }
 }
+
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4.5rem;
   }
 }
-
+@media (max-width: 1060px) {
+  header.masthead {
+    height: 35vh;
+    background-size: cover;
+    
+    /* min-height: 40rem; */
+    /* padding-top: 4.5rem;
+    padding-bottom: 0; */
+  }
+@media (max-width: 768px) {
+  header.masthead {
+    height: 25vh;
+  }
+}
+@media (max-width: 600px) {
+  header.masthead {
+    height: 15vh;
+  }
+}
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
 }
