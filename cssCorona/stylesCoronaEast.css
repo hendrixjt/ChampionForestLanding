@@ -2462,11 +2462,12 @@ fieldset:disabled a.btn {
   /* background-color: #f4623a;
   border-color: #f4623a; */
   background-color: #fff;
-  border-color: #39DAFF;
+  /* border-color: #39DAFF; */
+  border-color: #ea7db4;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #39DAFF;
+  background-color: #ea7db4;
   border-color: #fff;
 }
 .btn-primary2 {
@@ -10030,11 +10031,11 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #39DAFF;
+  color: #ea7db4;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   /* color: #f4623a !important; */
-  color: #E6992D !important;
+  color: ##ea7db4 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
