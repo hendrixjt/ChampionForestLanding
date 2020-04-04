@@ -10035,7 +10035,7 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   /* color: #f4623a !important; */
-  color: ##ea7db4 !important;
+  color: #ea7db4 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10086,6 +10086,7 @@ header.masthead {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background-position: contain;
   background-size: 100% auto;
   position: relative;
 }
